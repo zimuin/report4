@@ -21,12 +21,12 @@ public class LivingThing {
      * @param attack   攻撃力
      */
 
-    public LivingThing(String name, int hitpoint, int attack) {
+    public LivingThing(String name, int hitPoint, int attack) {
         this.name = name;
-        this.hitPoint = hitpoint;
+        this.hitPoint = hitPoint;
         this.attack = attack;
         this.dead = false;
-        System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, hitpoint, attack);
+        System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, hitPoint, attack);
     }
 
     /**
